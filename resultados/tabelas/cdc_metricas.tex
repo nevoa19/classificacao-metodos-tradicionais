@@ -1,0 +1,16 @@
+\begin{table}[!t]
+\centering
+\caption{CDC Diabetes: métricas no conjunto de teste (classe positiva: com diabetes).}
+\label{tab:cdc_metricas}
+\begin{tabular}{lccccc}
+\hline
+Modelo & Acur. & Prec. & Rev. & F1 & F1 treino \\
+\hline
+Trivial (classe majoritária) & 0,861 & 0,000 & 0,000 & 0,000 & 0,000 \\
+SVM linear & 0,714 & 0,300 & 0,790 & 0,435 & 0,434 \\
+SVM RBF & 0,709 & 0,298 & 0,799 & 0,434 & 0,436 \\
+Reg. logística & 0,732 & 0,310 & 0,756 & 0,440 & 0,440 \\
+k-NN & 0,809 & 0,316 & 0,318 & 0,317 & 0,978 \\
+\hline
+\end{tabular}
+\end{table}

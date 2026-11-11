@@ -1,0 +1,15 @@
+\begin{table}[!t]
+\centering
+\caption{CDC Diabetes: IC 95\% do F1 (bootstrap, 1000 reamostragens) e teste de McNemar contra o melhor modelo (Reg. logística).}
+\label{tab:cdc_sig}
+\begin{tabular}{lcc}
+\hline
+Modelo & IC 95\% do F1 & $p$ McNemar \\
+\hline
+SVM linear & [0,427; 0,442] & $<10^{-4}$ \\
+SVM RBF & [0,426; 0,441] & $<10^{-4}$ \\
+Reg. logística & [0,432; 0,448] & -- \\
+k-NN & [0,308; 0,327] & $<10^{-4}$ \\
+\hline
+\end{tabular}
+\end{table}

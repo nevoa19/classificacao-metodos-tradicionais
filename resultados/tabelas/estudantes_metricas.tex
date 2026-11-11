@@ -1,0 +1,16 @@
+\begin{table}[!t]
+\centering
+\caption{Evasão de estudantes: métricas no conjunto de teste (classe positiva: evasão).}
+\label{tab:estudantes_metricas}
+\begin{tabular}{lccccc}
+\hline
+Modelo & Acur. & Prec. & Rev. & F1 & F1 treino \\
+\hline
+Trivial (classe majoritária) & 0,679 & 0,000 & 0,000 & 0,000 & 0,000 \\
+SVM linear & 0,893 & 0,829 & 0,838 & 0,834 & 0,797 \\
+SVM RBF & 0,893 & 0,827 & 0,842 & 0,834 & 0,813 \\
+Reg. logística & 0,875 & 0,791 & 0,827 & 0,809 & 0,799 \\
+k-NN & 0,837 & 0,854 & 0,595 & 0,701 & 1,000 \\
+\hline
+\end{tabular}
+\end{table}

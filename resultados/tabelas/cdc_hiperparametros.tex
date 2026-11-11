@@ -1,0 +1,15 @@
+\begin{table}[!t]
+\centering
+\caption{CDC Diabetes: hiperparâmetros escolhidos e F1 médio na validação cruzada.}
+\label{tab:cdc_hiper}
+\begin{tabular}{llc}
+\hline
+Modelo & Hiperparâmetros & F1 (VC) \\
+\hline
+SVM linear & C=1 & 0,437 \\
+SVM RBF & C=10, gamma=0,0010 & 0,439 \\
+Reg. logística & C=0,0001 & 0,443 \\
+k-NN & n_neighbors=1, weights=uniform & 0,294 \\
+\hline
+\end{tabular}
+\end{table}

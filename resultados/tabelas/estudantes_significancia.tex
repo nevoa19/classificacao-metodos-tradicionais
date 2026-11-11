@@ -1,0 +1,15 @@
+\begin{table}[!t]
+\centering
+\caption{Evasão de estudantes: IC 95\% do F1 (bootstrap, 1000 reamostragens) e teste de McNemar contra o melhor modelo (SVM RBF).}
+\label{tab:estudantes_sig}
+\begin{tabular}{lcc}
+\hline
+Modelo & IC 95\% do F1 & $p$ McNemar \\
+\hline
+SVM linear & [0,800; 0,866] & 1,0000 \\
+SVM RBF & [0,798; 0,868] & -- \\
+Reg. logística & [0,774; 0,842] & 0,0025 \\
+k-NN & [0,655; 0,745] & $<10^{-4}$ \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,15 @@
+\begin{table}[!t]
+\centering
+\caption{Evasão de estudantes: hiperparâmetros escolhidos e F1 médio na validação cruzada.}
+\label{tab:estudantes_hiper}
+\begin{tabular}{llc}
+\hline
+Modelo & Hiperparâmetros & F1 (VC) \\
+\hline
+SVM linear & C=0,0100 & 0,789 \\
+SVM RBF & C=10, gamma=0,0010 & 0,794 \\
+Reg. logística & C=1 & 0,791 \\
+k-NN & n_neighbors=5, weights=distance & 0,691 \\
+\hline
+\end{tabular}
+\end{table}
